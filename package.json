@@ -1,0 +1,24 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "UCLA Extn. Home work",
+  "main": "\\app\\public\\Home.html",
+  "scripts": {
+    "test": "home.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonirav/friendfinder.git"
+  },
+  "author": "Ravinder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonirav/friendfinder/issues"
+  },
+  "homepage": "https://github.com/sonirav/friendfinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "path": "^0.12.7"
+  }
+}
