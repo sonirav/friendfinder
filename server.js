@@ -3,7 +3,7 @@ var express=require("express");
 var bodyParser=require("body-parser");
 var path = require("path");
 //***********************Defineing Server and Port*****************
-var PORT=3000;
+var var port = process.env.PORT || 3000;
 var app=express();
 //------------- 
 app.use(bodyParser.json());
